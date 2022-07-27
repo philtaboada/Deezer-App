@@ -1,0 +1,57 @@
+.input-container {
+    width: 524px;
+    height: 36px;
+    border-radius: 100px;
+    border: solid 1px #828282;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.input-navbar {
+    height: 34px;
+    width: 465px;
+    border: none;
+    border-radius: 100px;
+    margin-left: 16px;
+    outline: none;
+}
+
+.input-navbar::placeholder {
+    color: #BDBDBD;
+    font-size: 18px;
+    padding-bottom: 7px;
+    font-weight: 400;
+}
+
+.input-button {
+    border: none;
+    background-color: white;
+}
+
+.fa-magnifying-glass {
+    color: #BDBDBD;
+}
+
+.input-global {
+    display: flex;
+    width: 970px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-nameUser {
+    display: flex;
+    align-items: center;
+    margin-top: 34px;
+    margin-right: 40px;
+}
+
+.input-nameUser p {
+    margin: 0;
+}
+
+.fa-user {
+    padding-right: 12px;
+}

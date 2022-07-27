@@ -1,0 +1,51 @@
+.options-container {
+    width: 330px;
+    height: 988px;
+    background-color: #662323;
+    position: fixed;
+}
+
+.options-container ul {
+    margin: 0;
+}
+
+.img-options {
+    width: 250px;
+    height: 59px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.title-options {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27.5px;
+    color: white;
+    width: 112px;
+    height: 28px;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 4px;
+}
+
+.links-options {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    font-style: normal;
+}
+
+.links-options:hover {
+    color: #E86060;
+}
+
+.links-options:active {
+    color: #E86060;
+}
+
+.list-options {
+    padding-bottom: 8px;
+}

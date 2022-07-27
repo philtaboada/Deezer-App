@@ -1,0 +1,106 @@
+.main-app {
+    margin-left: 330px;
+}
+
+.index-app {
+    position: relative;
+}
+
+.container-principal-cardofmusic {
+    width: 970px;
+}
+
+.Card-cardofmusic {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    margin-left: 40px;
+}
+
+.card-container-cardofmusic {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-container-space {
+    width: 160px;
+    margin-bottom: 20px;
+    margin-right: 22px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.Card-cardofmusic img {
+    width: 160px;
+    height: 160px;
+}
+
+.fa {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+}
+
+.fa-3x {
+    position: absolute;
+    color: white;
+}
+
+.button-fa-3x {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 58px;
+    left: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    outline: none;
+    border: #555555;
+}
+
+.button-fa-3x:hover {
+    border: #d14545;
+    background-color: aliceblue;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 58px;
+    left: 55px;
+}
+
+.subtitle-cardofmusic {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #555555;
+    margin-left: 40px;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+.parraf-cardofmusic {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #828282;
+    margin-left: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.reproductor-container-music {
+    z-index: 100;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}
